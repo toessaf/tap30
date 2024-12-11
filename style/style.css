@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(255, 255, 255);
+  direction: rtl;
+}
+@font-face {
+  font-family: vazir;
+  src: url(./fonts/Vazir-Medium.woff);
+}
+body main nav {
+  width: 100vw;
+  height: 3vh;
+  background-color: #f8f8f8;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+body main nav ul {
+  width: 70%;
+  height: 100%;
+  list-style-type: none;
+  display: flex;
+  gap: 35px;
+  background-color: #f8f8f8;
+}
+body main nav ul li a {
+  font-family: vazir;
+  color: #545454;
+  text-decoration: none;
+}
+body main nav ul .button {
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #ff5722;
+  color: white;
+  font-family: vazir;
+  text-decoration: none;
+  border-radius: 5px;
+}
+body main nav span {
+  width: 30%;
+  padding-right: 150px;
+}
+
+/*# sourceMappingURL=style.css.map */
