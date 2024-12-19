@@ -1,3 +1,5 @@
+     @use './-ypography.scss';
+     @use './-resert.scss';
 body{
     background-color: rgb(255, 255, 255);
     direction: rtl;
@@ -6,7 +8,7 @@ body{
         height:100vh ;
         @font-face {
             font-family:vazir ;
-            src: url(./fonts/Vazir-Medium.woff);
+            src: url(../fonts/Vazir-Medium.woff);
         }
         header{
         nav{
@@ -17,6 +19,9 @@ body{
             display: flex;
             align-items: center;
             padding: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
        
             ul{
                 width: 70%;
@@ -34,7 +39,7 @@ body{
                  
                  }
                  .button{
-                    width:110px;
+                    width:17%;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -45,12 +50,13 @@ body{
                     text-decoration: none;
                     border-radius: 5px;
                     margin-top:-7px ;
-                    
+                    font-size:15px ;
                 }
                  }
                
                 span{
                     width: 30%;
+                    margin-top:2vh;
                     padding-right:150px ;
                 }
             }
@@ -83,7 +89,7 @@ body{
                      position: absolute;
                      top:370px;
                      right: 190px;
-                     height: 370px;
+                     height: 42vh;
 
                      
                      h1{
