@@ -121,24 +121,24 @@ body main .hero .applications .first-box p {
   font-size: 16px;
 }
 body main .hero .applications .first-box .first {
-  width: 224px;
-  height: 100%;
   background-color: white;
   margin-top: 0;
   align-items: center;
   display: flex;
   justify-content: center;
+  width: 224px;
+  height: 100%;
   border-radius: 10px;
   display: flex;
 }
 body main .hero .applications .first-box .second {
-  width: 224px;
-  height: 100%;
   background-color: white;
   margin-top: 0;
   align-items: center;
   display: flex;
   justify-content: center;
+  width: 224px;
+  height: 100%;
   border-radius: 10px;
   margin-right: 30px;
 }
